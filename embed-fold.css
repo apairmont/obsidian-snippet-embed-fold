@@ -1,0 +1,17 @@
+.internal-embed > .markdown-embed-title {
+    display: none;
+}
+
+.internal-embed.markdown-embed {
+    --embed-padding: 0;
+    border-inline-start: 0;
+    border-inline-end: var(--embed-border-start, var(--embed-border-right));
+    left: -23px;
+    margin-bottom: 0;
+}
+
+.internal-embed .markdown-preview-view > .markdown-preview-sizer {
+    padding-left: 24px;
+    margin-bottom: -14px;
+    min-height: 20px;
+}
