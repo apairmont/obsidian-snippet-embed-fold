@@ -12,11 +12,22 @@ URL: https://github.com/apairmont/obsidian-snippet-embed-fold
     border-inline-start: 0;
     border-inline-end: var(--embed-border-start, var(--embed-border-right));
     left: -23px;
+    top: 14px;
+    padding-bottom: 14px;
     margin-bottom: 0;
 }
 
 .internal-embed .markdown-preview-view > .markdown-preview-sizer {
     padding-left: 24px;
-    margin-bottom: -14px;
+    /* margin-bottom: 0px; */
     min-height: 20px;
+}
+
+.internal-embed .markdown-preview-view > .markdown-preview-sizer h1,
+.internal-embed .markdown-preview-view > .markdown-preview-sizer h2 {
+    margin-bottom: -15px;
+}
+
+.internal-embed .markdown-preview-view > .markdown-preview-sizer li p {
+    white-space: pre;
 }
